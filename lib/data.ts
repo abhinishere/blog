@@ -6,16 +6,33 @@ import challoImg from "@/public/challo-preview.png";
 import modalImg from "@/public/next-gallery-modal-preview.png";
 import varthacmsImg from "@/public/varthacms-preview.png";
 import newsImg from "@/public/nextjs-news-preview.png";
+import { socialType } from "./type";
+
+export const socialLinks: socialType[] = [
+  {
+    text: "Email",
+    link: "",
+  },
+  {
+    text: "GitHub",
+    link: "",
+  },
+  {
+    text: "Twitter",
+    link: "",
+  },
+  {
+    text: "LinkedIn",
+    link: "",
+  },
+];
 
 export const links = [
   {
     name: "Home",
     hash: "#home",
   },
-  {
-    name: "About",
-    hash: "#about",
-  },
+
   {
     name: "Projects",
     hash: "#projects",
@@ -27,6 +44,10 @@ export const links = [
   {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Blog",
+    hash: "#blog",
   },
   {
     name: "Contact",
