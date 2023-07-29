@@ -1,31 +1,7 @@
-import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import challoImg from "@/public/challo-preview.png";
-import modalImg from "@/public/next-gallery-modal-preview.png";
-import varthacmsImg from "@/public/varthacms-preview.png";
-import newsImg from "@/public/nextjs-news-preview.png";
-import { socialType } from "./type";
-
-export const socialLinks: socialType[] = [
-  {
-    text: "Email",
-    link: "",
-  },
-  {
-    text: "GitHub",
-    link: "",
-  },
-  {
-    text: "Twitter",
-    link: "",
-  },
-  {
-    text: "LinkedIn",
-    link: "",
-  },
-];
+import { ExperienceType, projectType, socialType } from "./type";
+import { FiGithub, FiLinkedin, FiMail, FiTwitter } from "react-icons/fi";
 
 export const links = [
   {
@@ -55,74 +31,122 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const socialLinks: socialType[] = [
+  {
+    text: "Email",
+    link: "mailto:abhinishere@gmail.com",
+    icon: FiMail,
+  },
+  {
+    text: "GitHub",
+    link: "https://github.com/abhinishere",
+    icon: FiGithub,
+  },
+  {
+    text: "Twitter",
+    link: "https://twitter.com/abhinishere",
+    icon: FiTwitter,
+  },
+  {
+    text: "LinkedIn",
+    link: "https://www.linkedin.com/in/abhinishere/",
+    icon: FiLinkedin,
+  },
+];
+
+export const projectsData: projectType[] = [
+  {
+    title: "Challo",
+    description:
+      "Challo is a full-fledged social media app with a primary focus on live video-based discussions. Tech stack includes Flutter, Python, Firebase, AWS, and Agora SDK.",
+    // tags: ["Flutter", "Python", "Firebase", "AWS", "Agora SDK"],
+    source: "https://github.com/abhinishere/challo",
+    image: "/challo-preview.png",
+  },
+  {
+    title: "next-gallery-modal",
+    description:
+      "A WordPress-like image upload gallery modal built with Next.js, TailwindCSS, Typescript, shadcn-ui, and Supabase.",
+    // tags: ["Next.js", "Tailwind", "Typescript", "Supabase", "shadcn-ui"],
+    source: "https://github.com/abhinishere/next-gallery-modal",
+    image: "/next-gallery-modal-preview.png",
+  },
+  {
+    title: "varthaCMS",
+    description:
+      "An open-source news-focused CMS project I'm building with Next.js, Tailwind, Typescript, and Supabase.",
+    // tags: [
+    //   "Next.js",
+    //   "Tailwind",
+    //   "Typescript",
+    //   "Supabase",
+    //   "PostgreSQL",
+    //   "shadcn-ui",
+    // ],
+    source: "https://github.com/varthaCMS/varthaCMS",
+    image: "/varthacms-preview.png",
+  },
+  {
+    title: "blog",
+    description:
+      "Blog/portfolio website built with Next.js, Tailwind, Typescript & Framer Motion.",
+    // tags: [
+    //   "Next.js",
+    //   "Tailwind",
+    //   "Typescript",
+    //   "Framer-Motion",
+    // ],
+    source: "https://github.com/varthaCMS/varthaCMS",
+    image: "/blog3-preview.png",
+  },
+  {
+    title: "nextjs-news-template",
+    description:
+      "Next.js template for static news, magazine, and blog websites.",
+    // tags: [
+    //   "Next.js",
+    //   "Tailwind",
+    //   "Typescript",
+    // ],
+    source: "https://github.com/varthaCMS/varthaCMS",
+    image: "/nextjs-news-preview.png",
+  },
+];
+
+export const experiencesData: ExperienceType[] = [
   {
     title: "Completed BTech in CSE",
     location: "Kerala, India",
     description:
-      "I studied Computer Science & Engineering at SCMS School of Engineering & Technology. I was freelancing part-time while doing college, and decided to take on full-time after graduation.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "🧑‍🎓 I studied Computer Science & Engineering at SCMS School of Engineering & Technology. I was freelancing part-time while doing college, and decided to take on full-time after graduation.",
+    icon: LuGraduationCap,
+    date: "2015 - 2019",
   },
   {
     title: "Freelancer",
     location: "Kerala, India",
     description:
-      "I have been working as a freelance full-stack web-and-app developer and marketer for more than three years. The tech stack I currently use includes Flutter, React, Next.js, Typescript, Tailwind, Python, Supabase, and Firebase.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2023",
+      "👨‍💻 I have been working as a freelance full-stack web-and-app developer and marketer for more than three years. The tech stack I currently use includes Flutter, React, Next.js, Typescript, Tailwind, Python, Supabase, and Firebase.",
+    icon: CgWorkAlt,
+    date: "2020 - present",
   },
-] as const;
-
-export const projectsData = [
-  {
-    title: "Challo",
-    description:
-      "Built with Flutter and Firebase, Challo is a full-fledged social media app with a primary focus on live video-based discussions.",
-    tags: ["Flutter", "Python", "Firebase", "AWS", "Agora SDK"],
-    imageUrl: challoImg,
-  },
-  {
-    title: "next-gallery-modal",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["Next.js", "Tailwind", "Typescript", "Supabase", "shadcn-ui"],
-    imageUrl: modalImg,
-  },
-  {
-    title: "varthaCMS",
-    description:
-      "An open-source news-focused CMS project I'm building with Next.Js, Tailwind, Typescript, and Supabase.",
-    tags: [
-      "Next.js",
-      "Tailwind",
-      "Typescript",
-      "Supabase",
-      "PostgreSQL",
-      "shadcn-ui",
-    ],
-    imageUrl: varthacmsImg,
-  },
-] as const;
+];
 
 export const skillsData = [
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+  "React",
+  "TailwindCSS",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "Flutter",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Supabase",
+  "Firebase",
+  "AWS",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
+  "SEO",
 ] as const;

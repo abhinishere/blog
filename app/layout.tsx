@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#F5F3F7] text-[#4A4A4A] relative h-[5000px] pt-28 sm:pt-36`}
+        className={`${inter.className} bg-[#F5F3F7] text-[#4A4A4A] relative pt-28 sm:pt-36`}
       >
         <Header />
         {children}

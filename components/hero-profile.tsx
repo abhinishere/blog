@@ -1,14 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
-
 import Image from "next/image";
-
-import { socialLinks } from "@/lib/data";
-import SimpleButton from "./simple-button";
 
 export default function Hero() {
   return (
-    <div className="ml:space-y-10 space-y-14">
+    <section id="home" className="ml:space-y-10 space-y-14 scroll-mt-[100rem]">
       <div className="flex items-center space-x-5">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
@@ -37,24 +33,6 @@ export default function Hero() {
           </p>
         </motion.div>
       </div>
-      <motion.div
-        initial={{ y: 50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.15 }}
-        className="ml:space-y-10 space-y-14"
-      >
-        <p className="text-justify">
-          👋 Hi, I'm Abhin. Freelance developer and writer. I'm passionate about
-          building web experiences that solve real problems and improve lives.
-          When not working, I am mostly likely digging through Reddit or
-          spinning up websites around obscure topics.
-        </p>
-        <div className="flex flex-wrap items-center sm:space-x-2">
-          {socialLinks.map((link) => (
-            <SimpleButton {...link} />
-          ))}
-        </div>
-      </motion.div>
-    </div>
+    </section>
   );
 }
