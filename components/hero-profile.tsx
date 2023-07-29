@@ -4,7 +4,11 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section id="home" className="ml:space-y-10 space-y-14 scroll-mt-[100rem]">
+    <section
+      id="home"
+      key="home"
+      className="ml:space-y-10 space-y-14 scroll-mt-[100rem]"
+    >
       <div className="flex items-center space-x-5">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}

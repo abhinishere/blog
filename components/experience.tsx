@@ -4,10 +4,14 @@ import ExperienceListing from "./ui/experience-listing";
 
 export default function Experience() {
   return (
-    <section id="experience" className="ml:space-y-10 space-y-14 scroll-mt-28">
+    <section
+      id="experience"
+      key="experiences"
+      className="ml:space-y-10 space-y-14 scroll-mt-28"
+    >
       <HeaderText text="EXPERIENCE" />
       {experiencesData.map((experience) => (
-        <ExperienceListing {...experience} />
+        <ExperienceListing key={experience.date} {...experience} />
       ))}
     </section>
   );

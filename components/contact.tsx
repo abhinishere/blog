@@ -2,7 +2,11 @@ import HeaderText from "./ui/header-text";
 
 export default function Contact() {
   return (
-    <section id="contact" className="ml:space-y-10 space-y-14 scroll-mt-28">
+    <section
+      id="contact"
+      key="contact"
+      className="ml:space-y-10 space-y-14 scroll-mt-28"
+    >
       <HeaderText text="CONTACT" />
       <p>
         Best way to reach me is through email:

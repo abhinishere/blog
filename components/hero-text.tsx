@@ -12,7 +12,7 @@ export default function HeroText() {
       </p>
       <div className="flex flex-wrap items-center sm:space-x-2">
         {socialLinks.map((link) => (
-          <SimpleButton {...link} />
+          <SimpleButton key={link.link} {...link} />
         ))}
       </div>
     </div>
