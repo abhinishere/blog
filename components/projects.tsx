@@ -21,12 +21,17 @@ export default function Projects() {
               width={500}
               height={200}
             />
-            <div className="flex text-[#878787] hover:text-[#8B5FBF] cursor-pointer">
+            <a
+              href={project.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex text-[#878787] hover:text-[#8B5FBF] cursor-pointer"
+            >
               <h2 className=" text-base lg:text-lg font-bold">
                 {project.title}
               </h2>
               <FiArrowUpRight />
-            </div>
+            </a>
             <p>{project.description}</p>
           </div>
         ))}

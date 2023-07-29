@@ -96,7 +96,7 @@ export const projectsData: projectType[] = [
     //   "Typescript",
     //   "Framer-Motion",
     // ],
-    source: "https://github.com/varthaCMS/varthaCMS",
+    source: "https://github.com/abhinishere/blog",
     image: "/blog3-preview.png",
   },
   {
@@ -108,7 +108,7 @@ export const projectsData: projectType[] = [
     //   "Tailwind",
     //   "Typescript",
     // ],
-    source: "https://github.com/varthaCMS/varthaCMS",
+    source: "https://github.com/abhinishere/nextjs-news-template",
     image: "/nextjs-news-preview.png",
   },
 ];
