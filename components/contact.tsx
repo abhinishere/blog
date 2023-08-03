@@ -9,7 +9,7 @@ export default function Contact() {
     >
       <HeaderText text="CONTACT" />
       <p>
-        Best way to reach me is through email:
+        Best way to reach me is through email:&nbsp;
         <a
           href="mailto:abhinishere@gmail.com"
           target="_blank"
