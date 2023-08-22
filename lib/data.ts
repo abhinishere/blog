@@ -134,7 +134,7 @@ export const experiencesData: ExperienceType[] = [
     title: "Developer Intern",
     location: "Calicut, Kerala",
     description:
-      "Familiarized development tools, best coding practices, and project management methodologies.",
+      "Interned at Niveosys and familiarized development tools, best coding practices, and project management methodologies.",
     icon: CgWorkAlt,
     date: "2018 Jul-Aug",
   },
