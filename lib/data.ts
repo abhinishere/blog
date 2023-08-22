@@ -115,30 +115,45 @@ export const projectsData: projectType[] = [
 
 export const experiencesData: ExperienceType[] = [
   {
-    title: "Completed BTech in CSE",
-    location: "Kerala, India",
+    title: "Full Stack Developer @ Mixedware",
+    location: "Bengaluru, Karnataka",
     description:
-      "🧑‍🎓 I studied Computer Science & Engineering at SCMS School of Engineering & Technology. I was freelancing part-time while doing college, and decided to take on full-time after graduation.",
-    icon: LuGraduationCap,
-    date: "2015 - 2019",
+      "I was hired as a full stack developer at Mixedware after freelancing for them for two months. I was responsible for building an AR mobile app with Flutter, ARKit, ARCore & Firebase, and a revamped web app with e-commerce functionality using TypeScript, Next/React, Node, Express, MongoDB (MERN) stack.",
+    icon: CgWorkAlt,
+    date: "2022 - 2023",
   },
   {
-    title: "Freelancer",
-    location: "Kerala, India",
+    title: "Freelance Full Stack Developer & Marketer",
+    location: "Remote",
     description:
-      "👨‍💻 I have been working as a freelance full-stack web-and-app developer and marketer for more than three years. The tech stack I currently use includes Flutter, React, Next.js, Typescript, Tailwind, Python, Supabase, and Firebase.",
+      "I freelanced as a full stack web & app developer and marketer for 2+ years with clients of all sizes, including a top price comparison site and a VR startup.",
     icon: CgWorkAlt,
-    date: "2020 - present",
+    date: "2020 - 2022",
+  },
+  {
+    title: "Developer Intern",
+    location: "Calicut, Kerala",
+    description:
+      "Familiarized development tools, best coding practices, and project management methodologies.",
+    icon: CgWorkAlt,
+    date: "2018 Jul-Aug",
+  },
+  {
+    title: "Completed BTech in CSE",
+    location: "Ernakulam, Kerala",
+    description:
+      "🧑‍🎓 I studied Computer Science & Engineering at SCMS School of Engineering & Technology.",
+    icon: LuGraduationCap,
+    date: "2015 - 2019",
   },
 ];
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML5/CSS3",
   "JavaScript",
   "TypeScript",
-  "Dart",
   "Python",
+  "Flutter",
   "React",
   "Next.js",
   "TailwindCSS",
@@ -157,5 +172,8 @@ export const skillsData = [
   "Heroku",
   "Figma",
   "Docker",
+  "Git",
   "SEO",
+  "PostgreSQL",
+  "REST APIs",
 ] as const;
