@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Abhin Mahipal | Personal Blog",
   description:
-    "Hey, I'm Abhin. Freelance developer and writer. I'm passionate about building web experiences that solve real problems and improve lives.",
+    "Hey, I'm Abhin. Full-Stack developer and writer. I'm passionate about building web experiences that solve real problems and improve lives.",
 };
 
 export default function RootLayout({

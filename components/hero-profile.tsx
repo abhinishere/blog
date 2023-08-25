@@ -33,7 +33,7 @@ export default function Hero() {
             Abhin Mahipal
           </h2>
           <p className="lg:text-lg md:text-base sm:text-sm font-light">
-            Freelance Developer
+            Full-Stack Developer
           </p>
         </motion.div>
       </div>

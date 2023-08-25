@@ -5,7 +5,7 @@ export default function HeroText() {
   return (
     <div className="ml:space-y-10 space-y-14">
       <p className="text-justify">
-        👋 Hi, I&apos;m Abhin. Freelance developer and writer. I&apos;m
+        👋 Hi, I&apos;m Abhin. Full-stack developer and writer. I&apos;m
         passionate about building web experiences that solve real problems and
         improve lives. When not working, I am mostly likely digging through
         Reddit or spinning up websites around obscure topics.
